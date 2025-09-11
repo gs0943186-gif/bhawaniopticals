@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhawani Optical Reviews</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhawani Optical</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #1e0030, #3d0075, #7a00b8, #ff0057);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+      font-family: "Poppins", sans-serif;
+      color: white;
+      overflow: hidden;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      text-align: center;
+      z-index: 2;
+    }
+
+    h1 {
+      font-size: 4rem;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      text-shadow: 0 0 15px #ff00c8, 0 0 30px #a100ff;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-15px); }
+    }
+
+    .tagline {
+      font-size: 1.3rem;
+      margin-top: 10px;
+      color: #ffe5ff;
+      animation: glow 2s infinite alternate;
+    }
+
+    @keyframes glow {
+      from { text-shadow: 0 0 5px #ff00ff; }
+      to { text-shadow: 0 0 20px #ff4dff; }
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 15px 35px;
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+      border: 2px solid #ff00ff;
+      border-radius: 50px;
+      text-decoration: none;
+      box-shadow: 0 0 15px rgba(255, 0, 255, 0.6);
+      transition: all 0.4s ease;
+      backdrop-filter: blur(10px);
+    }
+
+    .btn:hover {
+      background: #ff00c8;
+      box-shadow: 0 0 25px #ff00ff, 0 0 50px #ff00ff;
+      transform: scale(1.05);
+    }
+
+    /* Floating particles (4D effect) */
+    .particle {
+      position: absolute;
+      width: 8px;
+      height: 8px;
+      background: #fff;
+      border-radius: 50%;
+      box-shadow: 0 0 15px #fff;
+      animation: floatUp 10s linear infinite;
+      opacity: 0.7;
+    }
+
+    @keyframes floatUp {
+      from { transform: translateY(100vh) scale(0.5); opacity: 0.7; }
+      to { transform: translateY(-10vh) scale(1.2); opacity: 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Floating particles -->
+  <div class="particle" style="left:10%; animation-delay:0s;"></div>
+  <div class="particle" style="left:25%; animation-delay:2s;"></div>
+  <div class="particle" style="left:50%; animation-delay:4s;"></div>
+  <div class="particle" style="left:70%; animation-delay:1s;"></div>
+  <div class="particle" style="left:85%; animation-delay:3s;"></div>
+<div class="header">
+  <img src="logo.png" class="logo">
+</div>
+
+<div class="review-box">
+  <!-- review form or reviews -->
+</div>
+
+  <!-- Content -->
+  <div class="container">
+    <img src="data:image/jpeg;base64,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">
+    <h1> Bhawani Optical</h1>
+    <p class="tagline">Best Frames • Eye Testing • Stylish Shades</p>
+    <a href="https://gs0943186-gif.github.io/bhawaniopticalpaota/" class="btn">✨ Enter Website</a>
+  </div>
+
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #000000, #434343, #ffb300);
+
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      color: #fff;
+    }
+
+    .review-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 30px;
+      border-radius: 20px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 10px 40px rgba(0,255,255,0.4), inset 0 0 30px rgba(0,255,255,0.2);
+      transform: perspective(1000px) rotateX(5deg) rotateY(-5deg);
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+      width: 700px;
+      max-width: 95%;
+    }
+
+    .review-container:hover {
+      transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale(1.02);
+      box-shadow: 0 15px 50px rgba(0,255,255,0.6), inset 0 0 40px rgba(0,200,255,0.4);
+    }
+
+    .review-box h3 {
+      margin-bottom: 10px;
+      color: #00e5ff;
+    }
+
+    .stars-input span {
+      font-size: 25px;
+      cursor: pointer;
+      color: #555;
+      transition: color 0.3s;
+    }
+
+    .stars-input span:hover,
+    .stars-input span.active {
+      color: gold;
+    }
+
+    .review-box input, 
+    .review-box textarea {
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 8px;
+      border: none;
+      font-size: 14px;
+      transition: 0.3s;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+
+    .review-box input:focus,
+    .review-box textarea:focus {
+      border: 2px solid #00e5ff;
+      box-shadow: 0 0 12px #00e5ff;
+      outline: none;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      background: linear-gradient(135deg, #00e5ff, #00bcd4);
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      cursor: pointer;
+      box-shadow: 0 5px 20px rgba(0,255,255,0.4);
+      margin-top: 10px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #00bcd4, #00838f);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(0,255,255,0.6);
+    }
+
+    .website-btn {
+      background: linear-gradient(135deg, #ff9800, #e65100);
+      margin-left: 10px;
+      box-shadow: 0 5px 20px rgba(255,165,0,0.4);
+    }
+
+    .website-btn:hover {
+      background: linear-gradient(135deg, #e65100, #bf360c);
+      box-shadow: 0 8px 25px rgba(255,120,0,0.6);
+    }
+
+    /* Reviews list */
+    .reviews-list {
+      margin-top: 20px;
+      border-top: 2px solid rgba(255,255,255,0.2);
+      padding-top: 15px;
+    }
+
+    .review-item {
+      background: rgba(255,255,255,0.08);
+      padding: 12px;
+      margin-bottom: 12px;
+      border-radius: 10px;
+      box-shadow: inset 0 0 15px rgba(0,255,255,0.3);
+    }
+
+    .review-item .stars {
+      color: gold;
+      margin-bottom: 5px;
+    }
+
+    .review-item strong {
+      color: #00e5ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="review-container">
+    <!-- Review Form -->
+    <div class="review-box">
+      <h3>Leave a review</h3>
+      <div class="stars-input">
+        <span data-value="1">★</span>
+        <span data-value="2">★</span>
+        <span data-value="3">★</span>
+        <span data-value="4">★</span>
+        <span data-value="5">★</span>
+      </div>
+      <input id="name" type="text" placeholder="Your name (optional)">
+      <textarea id="feedback" rows="4" placeholder="Write your feedback..."></textarea>
+      <br>
+      <button class="btn" onclick="submitReview()">Submit Review</button>
+      <a href="https://gs0943186-gif.github.io/bhawaniopticalpaota/" target="_blank" class="btn website-btn">Visit Our Website</a>
+    </div>
+
+    <!-- Reviews Display -->
+    <div class="reviews-list" id="reviewsList">
+      <h3>Customer Reviews</h3>
+      <p id="noReviews">No reviews yet — be the first to leave feedback!</p>
+    </div>
+  </div>
+
+  <script>
+    let selectedRating = 0;
+
+    // Star rating interaction
+    const stars = document.querySelectorAll(".stars-input span");
+    stars.forEach(star => {
+      star.addEventListener("click", () => {
+        selectedRating = star.dataset.value;
+        stars.forEach(s => s.classList.remove("active"));
+        for (let i = 0; i < selectedRating; i++) {
+          stars[i].classList.add("active");
+        }
+      });
+    });
+
+    function submitReview() {
+      const name = document.getElementById("name").value || "Anonymous";
+      const feedback = document.getElementById("feedback").value;
+
+      if (selectedRating == 0 || feedback.trim() === "") {
+        alert("Please select a star rating and write feedback before submitting!");
+        return;
+      }
+
+      // Remove "no reviews" message
+      document.getElementById("noReviews").style.display = "none";
+
+      // Create review element
+      const reviewList = document.getElementById("reviewsList");
+      const reviewItem = document.createElement("div");
+      reviewItem.classList.add("review-item");
+
+      // Stars display
+      let starsHtml = "";
+      for (let i = 0; i < selectedRating; i++) starsHtml += "★";
+      for (let i = selectedRating; i < 5; i++) starsHtml += "☆";
+
+      reviewItem.innerHTML = `
+        <div class="stars">${starsHtml}</div>
+        <p><strong>${name}:</strong> ${feedback}</p>
+      `;
+
+      reviewList.appendChild(reviewItem);
+
+      // Reset form
+      document.getElementById("name").value = "";
+      document.getElementById("feedback").value = "";
+      stars.forEach(s => s.classList.remove("active"));
+      selectedRating = 0;
+    }
+  </script>
+
+</body>
+</html>
