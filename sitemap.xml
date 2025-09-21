@@ -1,23 +1,52 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://gs0943186-gif.github.io/bhawaniopticals/</loc>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://gs0943186-gif.github.io/bhawaniopticals/about</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gs0943186-gif.github.io/bhawaniopticals/services</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gs0943186-gif.github.io/bhawaniopticals/products</loc>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://gs0943186-gif.github.io/bhawaniopticals/contact</loc>
-    <priority>0.8</priority>
-  </url>
-</urlset>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sitemap - Bhawani Opticals</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 20px;
+      line-height: 1.6;
+    }
+    h1 {
+      color: #333;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    li {
+      margin: 8px 0;
+    }
+    a {
+      color: #0073e6;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Sitemap - Bhawani Opticals</h1>
+    <p>Below is a list of all the pages available on this website:</p>
+    <ul>
+      <li><a href="index.html">🏠 Home</a></li>
+      <li><a href="about.html">ℹ️ About Us</a></li>
+      <li><a href="products.html">👓 Our Products</a></li>
+      <li><a href="contact.html">📞 Contact</a></li>
+    </ul>
+  </div>
+</body>
+</html>
